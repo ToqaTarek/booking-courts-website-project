@@ -40,7 +40,7 @@ function validation(){
 		valid = (valid) ? true : false;
 	}
 	
-/*	var userMobile = document.regForm.userMobile.value;
+	var userMobile = document.regForm.userMobile.value;
 	if(isNaN(userMobile){
 		formLabels[2].innerHTML = "Mobile: [Numbers only]";
 		formLabels[2].style.color = "red";
@@ -50,7 +50,7 @@ function validation(){
 		formLabels[2].innerHTML = "Mobile: ";
 		formLabels[2].style.color = "black";
 		valid = (valid) ? true : false;
-	}*/
+	}
 	
 	var userpassword = document.regForm.userpassword.value;
 	if(userpassword == "")
